@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LoseSumWeight
+build_property.RootNamespace = LoseSumWeight
+build_property.ProjectDir = D:\VCC\SpringSummer2023\CSTP_2104_FinalProject\CSTP-2104-Lose-Sum-Weight\LoseSumWeight\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\VCC\SpringSummer2023\CSTP_2104_FinalProject\CSTP-2104-Lose-Sum-Weight\LoseSumWeight
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Main/Welcome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxXZWxjb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ccjb9x3mx9
