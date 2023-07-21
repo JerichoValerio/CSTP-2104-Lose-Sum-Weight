@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LoseSumWeight.Data;
-using LoseSumWeight.Models;
 
 namespace LoseSumWeight.Controllers
 {
@@ -87,7 +84,18 @@ namespace LoseSumWeight.Controllers
         {
           return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+        public IActionResult ToggleFavorite(int id)
+        {
+            var movie = _context.Products.FirstOrDefault(m => m.Id == id);
 
+            if (movie != null)
+            {
+                movie.IsFavorite = !movie.IsFavorite;
+                _context.SaveChanges();
+            }
+
+            return RedirectToAction(nameof(Index));
+        }
 
     }
 }

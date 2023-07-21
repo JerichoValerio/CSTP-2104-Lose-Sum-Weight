@@ -24,14 +24,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Main/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Main/Welcome.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxXZWxjb21lLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/SavedList/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F2ZWRMaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/VCC/SpringSummer2023/CSTP_2104_FinalProject/CSTP-2104-Lose-Sum-Weight/LoseSumWeight/Views/Shared/Error.cshtml]

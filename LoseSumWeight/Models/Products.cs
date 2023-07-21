@@ -10,6 +10,7 @@ namespace LoseSumWeight.Models
         public string? Price { get; set; }
         public string? ImagePath { get; set; }
         public int ? LeftInStock { get; set; }
+        public bool IsFavorite { get; set; }
 
 
     }

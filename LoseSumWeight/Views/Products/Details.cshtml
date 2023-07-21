@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>@Model.Name</h1>
 
 <div>
     <h4>Products</h4>
@@ -39,3 +39,12 @@
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+
+@if (!Model.IsFavorite)
+{
+    <a asp-controller="Products" asp-action="ToggleFavorite" asp-route-id="@Model.Id">Save to cart</a>
+}
+else
+{
+    <a asp-controller="Products" asp-action="ToggleFavorite" asp-route-id="@Model.Id" >Remove from cart</a>
+}

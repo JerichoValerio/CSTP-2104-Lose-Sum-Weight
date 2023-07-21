@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h1>Products List</h1>
 
 
 <table class="table">
@@ -17,7 +17,7 @@
                 @Html.DisplayNameFor(model => model.Price)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.ImagePath)
+                Image
             </th>
             
             <th></th>
@@ -38,10 +38,19 @@
             
             <td>
                 <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-controller="Main" asp-action="SaveToCart" asp-route-id="@item.Id">Save to Cart</a> |
-           </td>
+            @if (!item.IsFavorite)
+            {
+                        <a asp-controller="Products" asp-action="ToggleFavorite" asp-route-id="@item.Id" >Save to cart</a>
+            }
+             else
+             {
+                        <a asp-controller="Products" asp-action="ToggleFavorite" asp-route-id="@item.Id">Remove from cart</a>
+             }
+                
+         </td>
           
         </tr>
+           
 }
     </tbody>
 </table>
