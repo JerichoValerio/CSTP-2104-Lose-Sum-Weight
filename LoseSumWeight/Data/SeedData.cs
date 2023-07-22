@@ -29,11 +29,10 @@ public static class SeedData
                 },
                 new Products
                 {
-                    Name = "Gaterade Water Bottle",
+                    Name = "Gatorade Water Bottle",
                     Price = "$20",
-                    ImagePath = "https://m.media-amazon.com/images/I/51W88P1bjGL._AC_SL1200_.jpg",
+                    ImagePath = "https://m.media-amazon.com/images/I/51W88P1bjGL._AC_SL1200_.png",
                     LeftInStock = 50
-
                 },
                 new Products
                 {
@@ -44,7 +43,7 @@ public static class SeedData
                 },
                 new Products
                 {
-                    Name = "Dumbell set",
+                    Name = "Dumbbell set",
                     Price = "$250",
                     ImagePath = "https://www.gearforfit.com//dat/products/759/5-25-dumbbbels.jpg",
                     LeftInStock = 12
