@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub acc\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj": {}
+    "D:\\VCC\\SpringSummer2023\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj": {}
   },
   "projects": {
-    "D:\\GitHub acc\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj": {
+    "D:\\VCC\\SpringSummer2023\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub acc\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj",
+        "projectUniqueName": "D:\\VCC\\SpringSummer2023\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj",
         "projectName": "LoseSumWeight",
-        "projectPath": "D:\\GitHub acc\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj",
-        "packagesPath": "C:\\Users\\jeric\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub acc\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\obj\\",
+        "projectPath": "D:\\VCC\\SpringSummer2023\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\LoseSumWeight.csproj",
+        "packagesPath": "C:\\Users\\billk\\.nuget\\packages\\",
+        "outputPath": "D:\\VCC\\SpringSummer2023\\CSTP-2104-Lose-Sum-Weight\\LoseSumWeight\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft VS (Purple) Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jeric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\billk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

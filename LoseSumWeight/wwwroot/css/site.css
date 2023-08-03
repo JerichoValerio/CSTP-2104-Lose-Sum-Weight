@@ -33,5 +33,16 @@ td {
 }
 
 th {
-    color: white;
+    color: black;
+}
+
+.btn-place-order {
+    background-color: #f5cb8c;
+    border: 1px solid #cfa35a;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a shaded effect */
+    padding: 4px 16px; /* Adjust padding to create some space around the text */
+    font-weight: bold; /* Optionally increase font weight to make the text stand out */
+    color: #333; /* Optionally change text color to improve contrast */
+    margin-left: 20px;
 }

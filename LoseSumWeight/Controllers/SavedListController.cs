@@ -32,5 +32,34 @@ namespace LoseSumWeight.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpPost]
+        public IActionResult PlaceOrder(int productId, int selectedQuantity)
+        {
+            var product = _context.Products.FirstOrDefault(p => p.Id == productId);
+
+            if (product == null)
+            {
+                // Product not found, handle the error, show a message, etc.
+                return NotFound();
+            }
+
+            if (ModelState.IsValid && selectedQuantity > 0 && selectedQuantity <= product.LeftInStock)
+            {
+                product.IsFavorite = false;
+                product.SelectedQuantity = selectedQuantity;
+                product.LeftInStock -= selectedQuantity;
+                _context.SaveChanges();
+            }
+            else
+            {
+                // Handle invalid quantity or other validation errors
+                ModelState.AddModelError(string.Empty, "Invalid quantity selection.");
+            }
+
+            return RedirectToAction("Index");
+        }
+
+
     }
 }

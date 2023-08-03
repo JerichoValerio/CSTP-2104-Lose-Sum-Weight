@@ -20,6 +20,8 @@ else
             <th>Price</th>
             <th>LeftInStock</th>
             <th>Image</th>
+            <th>Quantity</th> 
+            <th>Action</th>
 
         </tr>
         </thead>
@@ -33,13 +35,24 @@ else
                          
                   <td>@product.LeftInStock</td>
                     <td><img src="@product.ImagePath" alt="@product.Name" style="max-width: 100px; max-height: 100px;" /></td>
-                        
-                          
+
                     <td>
-                       <a asp-controller="SavedList" asp-action="RemoveFromCart" asp-route-id="@product.Id">Remove</a>
-                     </td>
-                        </tr>
+                        <form asp-controller="SavedList" asp-action="PlaceOrder" method="post">
+                            <input type="hidden" name="productId" value="@product.Id" />
+                            <select name="selectedQuantity">
+                                <!-- Use 'name' attribute instead of 'asp-for' -->
+                                @for (int i = 1; i <= product.LeftInStock; i++)
+                                {
+                                    <option value="@i">@i</option>
+                                }
+                            </select>
+                            <input type="submit" id="btnPlace" value="Place Order" class="btn-place-order">
+                        </form>
+                        <a asp-controller="SavedList" asp-action="RemoveFromCart" asp-route-id="@product.Id">Remove</a>
+                    </td>
+             </tr>
             }
             </tbody>
         </table>
 }
+
